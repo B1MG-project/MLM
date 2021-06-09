@@ -733,7 +733,7 @@
     .project-wrp .project-client {
         font-size: 10px;
         text-transform: uppercase;
-        color: #777;
+        color: #404040;
         margin: 16px 20px 0 20px;
         -webkit-transition: all 0.1s linear;
            -moz-transition: all 0.1s linear;
