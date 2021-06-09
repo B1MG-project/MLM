@@ -1,2 +1,2 @@
-# B1MG-project.MLM.github.io
+# B1MG-project.github.io/MLM
 B1MG MLM Framework
