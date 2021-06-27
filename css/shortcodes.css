@@ -112,6 +112,7 @@
 }
 
 .tabs ul li {
+    list-style-type: none;
     display: inline-block;
     padding: 11px 20px;
     margin-right: 5px;
@@ -139,7 +140,6 @@
 .tabs ul li.current {
     background: #CC0066;
     color: white;
-    list-style-type: none;
 }
 
 .tabs .tab-content {
