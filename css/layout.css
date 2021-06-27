@@ -129,16 +129,23 @@
     }
 
     ol {
+        list-style: none;
+        counter-reset: li;
         position:relative;
         left:20px;    
     }
   
     li::before {
+        content: counter(li);
         color: #009999;
         font-size: 14px;
         font-weight: bold;
-        display: inline-block;
-        width: 3em;
+        display: inline-block; width: 1em;
+        margin-left: -1em;
+    }
+
+    li {
+        counter-increment: li;
     }
     
     .wrapper {
