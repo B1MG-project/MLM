@@ -139,7 +139,11 @@
         content: counter(li);
         color: #009999;
         display: inline-block; width: 1em;
-        margin-left: -1em
+        margin-left: -1em;
+    }
+
+    li {
+        counter-increment: li;
     }
     
     .wrapper {
