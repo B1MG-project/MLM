@@ -133,11 +133,13 @@
 .tabs ul li:hover {
     background: #333;
     color: white;
+    list-style-type: none;
 }
 
 .tabs ul li.current {
     background: #CC0066;
     color: white;
+    list-style-type: none;
 }
 
 .tabs .tab-content {
