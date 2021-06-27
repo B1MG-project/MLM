@@ -129,8 +129,6 @@
     }
 
     ol {
-        list-style: none;
-        counter-reset: li;
         position:relative;
         left:20px;    
     }
@@ -142,10 +140,6 @@
         font-weight: bold;
         display: inline-block; width: 1em;
         margin-left: -1em;
-    }
-
-    li {
-        counter-increment: li;
     }
     
     .wrapper {
