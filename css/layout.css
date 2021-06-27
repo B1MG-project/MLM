@@ -148,6 +148,10 @@
         counter-increment: li;
     }
     
+    li.nostyle {
+      list-style-type: none;
+    }
+
     .wrapper {
         position: absolute;
         top: 700px;
