@@ -127,6 +127,20 @@
         border: 0;
         -ms-interpolation-mode: bicubic;
     }
+
+    ol {
+        list-style: none;
+        counter-reset: li;
+        position:relative;
+        left:20px;    
+    }
+  
+    li::before {
+        content: counter(li);
+        color: #009999;
+        display: inline-block; width: 1em;
+        margin-left: -1em
+    }
     
     .wrapper {
         position: absolute;
