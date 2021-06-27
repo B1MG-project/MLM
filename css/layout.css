@@ -134,7 +134,6 @@
     }
   
     li::before {
-        content: counter(li);
         color: #009999;
         font-size: 14px;
         font-weight: bold;
