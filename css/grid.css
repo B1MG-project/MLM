@@ -7,6 +7,15 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+.validated {
+	background-color: rgba(186,253,184,0.3);
+}
+.reevaluate {
+	background-color: rgba(233,212,245,0.5);
+}
+.reformulated {
+	background-color: rgba(255,227,203,0.3);
+}
 
 .clearfix {
 	*zoom: 1;
