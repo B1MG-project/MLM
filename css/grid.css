@@ -8,13 +8,13 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 .validated {
-	background-color: rgba(186,253,184,0.3);
+	background-color: rgba(108,194,74, 0.2);
 }
 .reevaluate {
-	background-color: rgba(233,212,245,0.5);
+	background-color: rgba(115,69,149, 0.2);
 }
 .reformulated {
-	background-color: rgba(255,227,203,0.3);
+	background-color: rgba(255,184,28,0.2);
 }
 
 .clearfix {
